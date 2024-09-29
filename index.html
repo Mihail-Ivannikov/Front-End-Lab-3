@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="title-container">
+      <h2 class="title">Layout via float</h2>
+      <h2 class="title">Layout via flex</h2>
+    </div>
+    <div class="container">
+      <div class="float-layout">
+        <div class="header">
+          <p>TEXT</p>
+        </div>
+        <div class="middle-container" id="first-middle-container">
+          <p>IMG</p>
+        </div>
+        <div class="middle-container" id="center-middle-container">
+          <p>IMG</p>
+        </div>
+        <div class="middle-container" id="last-middle-container">
+          <p>TEXT</p>
+        </div>
+        <div class="footer">
+          <p>TEXT</p>
+        </div>
+      </div>
+
+      <div class="flex-layout">
+        <div class="header">
+          <p>TEXT</p>
+        </div>
+        <div class="middle-container-wrapper">
+          <div class="middle-container" id="first-middle-container">
+            <p>IMG</p>
+          </div>
+          <div class="middle-container" id="center-middle-container">
+            <p>IMG</p>
+          </div>
+          <div class="middle-container" id="last-middle-container">
+            <p>TEXT</p>
+          </div>
+        </div>
+        <div class="footer">
+          <p>TEXT</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
