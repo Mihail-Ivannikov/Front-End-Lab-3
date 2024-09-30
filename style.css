@@ -71,17 +71,17 @@
 .flex-layout .middle-container {
   line-height: 500px;
 }
-.flex-layout #first-middle-container {
+.flex-layout #first-middle-container-flex {
   background-color: #98ffb7;
   width: 30%;
 }
 
-.flex-layout #center-middle-container {
+.flex-layout #center-middle-container-flex {
   background-color: #fdff98;
   width: 40%;
 }
 
-.flex-layout #last-middle-container {
+.flex-layout #last-middle-container-flex {
   background-color: #f798ff;
   width: 30%;
 }
